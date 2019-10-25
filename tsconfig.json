@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "baseUrl": ".",
     "lib": [
       "dom",
       "dom.iterable",
@@ -17,9 +18,25 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "paths": {
+      "src/*": ["./src/*"],
+      "utils": ["./src/utils"],
+      "assets/*": ["./src/assets/*"],
+      "common/*": ["./src/common/*"],
+      "services/*": ["./src/services/*"],
+      "api/*": ["./src/services/api/*"],
+      "components/*": ["./src/components/*"],
+      "views/*": ["./src/views/*"],
+      "constants/*": ["./src/constants/*"]
+    }
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.js",
+    "**/*.json"
   ]
 }

@@ -1,11 +1,11 @@
 # myReactKit
 a quick start kit with create-react-app --typescript + react-router + materialUI + axios + mobx
->react 16.9.9
->typescript 3.6.4
->react-router 5
->materialUI 4.5.1
->axios 5
->mobx 5
+>react 16.9.9  
+>typescript 3.6.4  
+>react-router 5   
+>materialUI 4.5.1  
+>axios 5  
+>mobx 5  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

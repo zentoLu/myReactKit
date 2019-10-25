@@ -26,6 +26,7 @@ export default function App() {
         <Button variant="contained" color="primary">
           你好，世界
         </Button>
+        <div>12312</div>
         <Typography variant="h4" component="h1" gutterBottom>
           Create React App v4-beta example with TypeScript
         </Typography>
